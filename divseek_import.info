@@ -1,0 +1,4 @@
+name = DivSeek Import
+description = Provides importers for breeding crop focused data.
+core = 7.x
+package = DivSeek Canada
