@@ -181,6 +181,7 @@ class GermplasmDOI extends TripalImporter {
           'uniquename' => $cols[3],
           'db_name' => $cols[4],
           'dbxref_accession' => $cols[5],
+          'dbxref_version' => $cols[6],
         ];
 
         // We want to provide the user with helpful information if their file
@@ -197,6 +198,7 @@ class GermplasmDOI extends TripalImporter {
             [
               'db_id' => $data['db_id'],
               'accession' => $data['dbxref_accession'],
+              'version' => $data['dbxref_version'],
             ]
           );
         }
